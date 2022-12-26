@@ -99,7 +99,7 @@ function checkWinner(){
             else{
                 pl = player2;
             }
-            statusText.textContent = `${pl} wins this round!`;
+            statusText.textContent = `${pl} wins this round!🥳🥳`;
         }
         else if (!options.includes("")){
             statusText.textContent = `Draw!`;
